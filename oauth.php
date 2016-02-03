@@ -41,6 +41,9 @@ if (count($_REQUEST) == 0) {
         
         header('Location: ' . $authorizeUrl);
     }
+    else{
+        var_dump($values);
+    }
 } 
 else if (isset($_REQUEST['oauth_token']) && isset($_REQUEST['oauth_verifier'])) {
     $oauthToken = $_REQUEST['oauth_token'];
