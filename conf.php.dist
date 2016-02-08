@@ -1,0 +1,6 @@
+<?php
+
+return array(
+    'appToken' => 'APP_TOKEN',
+    'appSecret' => 'APP_SECRET',
+);
